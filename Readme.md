@@ -22,6 +22,7 @@ From a separate terminal and after sourcing workspace
 rviz2 -d [`recorder.rviz`](smart_rviz_plugin/config/rviz/recorder.rviz)
 ```
 
+![Recorder](smart_rviz_plugin/config/rviz_recorder.png "Rviz Outlook")
 ## How to start the custom can message sender
 From smart_rviz_plugin folder
 ```
@@ -115,7 +116,7 @@ For the setting up the ***sensors***:
 - `history_size`: size of history for the message publisher
 - `inst_type`: the type of instruction serialization type, relevant to sensors using ethernet and should be 'port_based'
 - `data_type`: the type of data serialization type, relevant to sensors using ethernet and should be 'port_based'
-- `uifname`: the user interface name of the sensor (refer to the [`user_interfaces`](umrr_ros2_driver/smartmicro/user_interfaces/))
+- `uifname`: the user interface name of the sensor (refer to the "umrr_ros2_driver/smartmicro/user_interfaces")
 - `uifmajorv`: the major version of the sensor user interface
 - `uifminorv`: the minor version of the sensor user interface
 - `uifpatchv`: the patch version of the sensor user interface
