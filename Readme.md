@@ -22,7 +22,7 @@ From a separate terminal and after sourcing workspace
 rviz2 -d [`recorder.rviz`](smart_rviz_plugin/config/rviz/recorder.rviz)
 ```
 
-![Recorder](smart_rviz_plugin/config/rviz_recorder.png "Rviz Outlook")
+![Recorder](smart_rviz_plugin/config/recorder_rviz.png "Rviz Outlook")
 ## How to start the custom can message sender
 From smart_rviz_plugin folder
 ```
